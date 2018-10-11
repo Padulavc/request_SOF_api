@@ -5,7 +5,7 @@ def getFiles():
     final_dataframe_with_lasers = DataFrame()
     url = "https://gatewayapi.prodam.sp.gov.br:443/financas/orcamento/sof/v2.1.0/consultaEmpenhos"
     headers = {
-    'Authorization': "Bearer 4abf361f8c520e74728a0d51817bc4",
+    'Authorization': "REPLACE",
     'Cache-Control': "no-cache",
     }
     for year in range(2015,2018):
